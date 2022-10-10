@@ -41,6 +41,7 @@ class _LoginFormState extends State<LoginForm> {
                 Text(
                   "Aenean bibendum turpis at ligula finibus interdum. Aenean et lectus sed libero imperdiet auctor.",
                   style: Theme.of(context).textTheme.bodyMedium,
+                  textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 32),
                 TextField(
